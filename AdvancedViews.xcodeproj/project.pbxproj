@@ -13,6 +13,10 @@
 		00B981DB260F61A80087040D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B981D9260F61A80087040D /* Main.storyboard */; };
 		00B981DD260F61A90087040D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B981DC260F61A90087040D /* Assets.xcassets */; };
 		00B981E0260F61A90087040D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B981DE260F61A90087040D /* LaunchScreen.storyboard */; };
+		00B981EB260F67870087040D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B981EA260F67870087040D /* logo.png */; };
+		00B981F1260FA9880087040D /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B981F0260FA9880087040D /* myTableViewController.swift */; };
+		00B981F92610CC440087040D /* MyScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B981F82610CC440087040D /* MyScrollViewController.swift */; };
+		00B981FC261255A10087040D /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B981FB261255A00087040D /* myCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		00B981DC260F61A90087040D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00B981DF260F61A90087040D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00B981E1260F61A90087040D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B981EA260F67870087040D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		00B981F0260FA9880087040D /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		00B981F82610CC440087040D /* MyScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewController.swift; sourceTree = "<group>"; };
+		00B981FB261255A00087040D /* myCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		00B981D2260F61A80087040D /* AdvancedViews */ = {
 			isa = PBXGroup;
 			children = (
+				00B981ED260F67A40087040D /* Assets */,
+				00B981E9260F67510087040D /* Controllers */,
 				00B981D3260F61A80087040D /* AppDelegate.swift */,
 				00B981D5260F61A80087040D /* SceneDelegate.swift */,
-				00B981D7260F61A80087040D /* ViewController.swift */,
 				00B981D9260F61A80087040D /* Main.storyboard */,
 				00B981DC260F61A90087040D /* Assets.xcassets */,
 				00B981DE260F61A90087040D /* LaunchScreen.storyboard */,
 				00B981E1260F61A90087040D /* Info.plist */,
 			);
 			path = AdvancedViews;
+			sourceTree = "<group>";
+		};
+		00B981E9260F67510087040D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00B981F0260FA9880087040D /* myTableViewController.swift */,
+				00B981D7260F61A80087040D /* ViewController.swift */,
+				00B981F82610CC440087040D /* MyScrollViewController.swift */,
+				00B981FB261255A00087040D /* myCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		00B981ED260F67A40087040D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00B981EA260F67870087040D /* logo.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B981EB260F67870087040D /* logo.png in Resources */,
 				00B981E0260F61A90087040D /* LaunchScreen.storyboard in Resources */,
 				00B981DD260F61A90087040D /* Assets.xcassets in Resources */,
 				00B981DB260F61A80087040D /* Main.storyboard in Resources */,
@@ -139,7 +168,10 @@
 			files = (
 				00B981D8260F61A80087040D /* ViewController.swift in Sources */,
 				00B981D4260F61A80087040D /* AppDelegate.swift in Sources */,
+				00B981FC261255A10087040D /* myCollectionViewController.swift in Sources */,
 				00B981D6260F61A80087040D /* SceneDelegate.swift in Sources */,
+				00B981F92610CC440087040D /* MyScrollViewController.swift in Sources */,
+				00B981F1260FA9880087040D /* myTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

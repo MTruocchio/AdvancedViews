@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  MyScrollViewController.swift
 //  AdvancedViews
 //
-//  Created by Marcelino Santana Truocchio on 27/03/21.
+//  Created by Marcelino Santana Truocchio on 28/03/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyScrollViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+        
 
 }
-
